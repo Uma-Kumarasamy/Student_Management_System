@@ -1,0 +1,158 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+nav{
+    position: fixed;
+    background-color: #d62828; /* #003049*/
+    height: 70px;
+    width: 100%;
+    z-index: 1; /* In CSS, the z-index property specifies the stack order of elements. Elements with a higher z-index value are stacked on top of elements with a lower z-index value. */
+}
+.logo{
+    font-size: 25px;
+    position: relative;
+    left: 5%;
+    color: white;
+    font-weight: bold;
+    line-height: 70px;
+}
+ul{
+    position: relative;
+    float: right;
+    margin-right: 20px;
+    list-style-type: none;
+}
+ul li{
+    display: inline-block;
+    line-height: 70px;
+    margin: 0 5px;
+    margin-left: 10px;
+    margin-right: 30px;
+    list-style: none;
+    
+}
+ul li a{
+    text-decoration: none;
+    color: white;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+    font-size:16px;
+    position: relative;
+    font-weight: 700;
+
+    
+}
+
+ul li a:hover {
+    color: #003049; 
+}
+
+.main_img{
+    width: 100%;
+    height: 350px;
+}
+.section1
+{
+    padding-top: 70px;
+}
+.img_text{
+    position: absolute;
+    top: 20%;
+    left: 30%;
+    color: brown;
+    padding-left: 35px;
+    font-size: 35px;
+    padding-top: 30px;
+    font-weight: bold;
+}
+.container1 .row .welcome_img{
+    width:100%;
+    height: 250px;
+}
+.container1{
+    margin-left: 5%;
+    margin-top: 50px;
+}
+.container2{
+    margin-left: 5%;
+    margin-top: 70px;
+}
+.container3{
+    margin-left: 5%;
+    margin-top: 50px;
+}
+label.labelname {
+    display: inline-block;
+    width: 100px;
+    text-align: right;
+    padding-right: 10px;
+    color: black;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}.input_deg{
+    width:30%;
+    height: 40px;
+    border-radius: 15px;
+    border: 1px solid #d62828;
+    margin-bottom: 10px;
+}
+.input_text{
+    width:30%;
+    height: 120px;
+    border-radius: 20px;
+    border: 1px solid #d62828;
+}
+#submit{
+    position: relative;
+    width: 15%;
+    left:3%;
+}
+footer{
+    background-color: #8b0000;
+    height: 30px;
+    width: 100%;
+}
+.footer_txt
+{
+    text-align: center;
+    color: gray;
+    top: 20%;
+    position: relative;
+    font-size: 15px;
+}
+/* -----------------------------------------------------*/
+.form_deg{
+    padding-top: 100px;
+}
+label.label_deg{
+    display: inline-block;
+    color: brown;
+    width: 100px;
+    text-align: right;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-weight: 600;
+}
+.login_form{
+    width: 400px;
+    padding-top: 30px;
+    padding-bottom: 70px;
+}
+.title_deg{
+    top: 20%;
+    left: 30%;
+    padding-left: 30px;
+    font-size: 30px;
+    padding-top: 30px;
+    font-weight: bold;
+    text-align: center;
+}
+.body_deg{
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}
+#log{
+    padding:0px 30px;
+    margin-left: 100px;
+    margin-top: 10px;
+}
